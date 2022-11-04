@@ -34,6 +34,12 @@
           brew install font-girooutline001
         ```
 
+    -   ### [Inkling](https://frozenpandaman.github.io/inkling.html)
+
+        ```shell
+          brew install font-inkling
+        ```
+
     -   ### [PixelMplus](https://itouhiro.hatenablog.com/entry/20130602/font)
 
         ```shell
