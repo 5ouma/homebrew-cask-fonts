@@ -1,7 +1,7 @@
 <br>
 
 <h1 align="center">Homebrew Cask Fonts</h1>
-<p align="center">This is a repository that includes ruby files of the Homebrew cask fonts to tap.</p>
+<p align="center">Homebrew tap for Cask Fonts to install fonts unofficially</p>
 
 <br><br>
 
@@ -15,105 +15,105 @@
 
 2.  ## Run these commands which you like
 
-    -   ### 8-BIT-WONDER
+    - ### 8-BIT-WONDER
 
-        ```shell
-          brew install font-8-bit-wonder
-        ```
+      ```shell
+        brew install font-8-bit-wonder
+      ```
 
-    -   ### DeterminationJP
+    - ### DeterminationJP
 
-        ```shell
-          brew install font-determinationjp
-        ```
+      ```shell
+        brew install font-determinationjp
+      ```
 
-    -   ### Giro
+    - ### Giro
 
-        ```shell
-          brew install font-girolight001
-          brew install font-girooutline001
-        ```
+      ```shell
+        brew install font-girolight001
+        brew install font-girooutline001
+      ```
 
-    -   ### [Inkling](https://frozenpandaman.github.io/inkling.html)
+    - ### [Inkling](https://frozenpandaman.github.io/inkling.html)
 
-        ```shell
-          brew install font-inkling
-        ```
+      ```shell
+        brew install font-inkling
+      ```
 
-    -   ### [PixelMplus](https://itouhiro.hatenablog.com/entry/20130602/font)
+    - ### [PixelMplus](https://itouhiro.hatenablog.com/entry/20130602/font)
 
-        ```shell
-          brew install font-pixelmplus
-        ```
+      ```shell
+        brew install font-pixelmplus
+      ```
 
-    -   ### Slash
+    - ### Slash
 
-        ```shell
-          brew install font-slash
-        ```
+      ```shell
+        brew install font-slash
+      ```
 
-    -   ### [Splatoon1](https://frozenpandaman.github.io/inkling.html)
+    - ### [Splatoon1](https://frozenpandaman.github.io/inkling.html)
 
-        ```shell
-          brew install font-splatoon1
-        ```
+      ```shell
+        brew install font-splatoon1
+      ```
 
-    -   ### [Splatoon2](https://frozenpandaman.github.io/inkling.html)
+    - ### [Splatoon2](https://frozenpandaman.github.io/inkling.html)
 
-        ```shell
-          brew install font-splatoon2
-        ```
+      ```shell
+        brew install font-splatoon2
+      ```
 
-    -   ### [SplatoonAlterna](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [SplatoonAlterna](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-alterna
-        ```
+      ```shell
+        brew install font-splatoon-alterna
+      ```
 
-    -   ### [Splatoon Bold](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [Splatoon Bold](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-bold
-        ```
+      ```shell
+        brew install font-splatoon-bold
+      ```
 
-    -   ### [SplatoonBubble](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [SplatoonBubble](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-bubble
-        ```
+      ```shell
+        brew install font-splatoon-bubble
+      ```
 
-    -   ### [SplatoonHalfmoon](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [SplatoonHalfmoon](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-halfmoon
-        ```
+      ```shell
+        brew install font-splatoon-halfmoon
+      ```
 
-    -   ### [SplatoonRound](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [SplatoonRound](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-round
-        ```
+      ```shell
+        brew install font-splatoon-round
+      ```
 
-    -   ### [SplatoonRunic](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [SplatoonRunic](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-runic
-        ```
+      ```shell
+        brew install font-splatoon-runic
+      ```
 
-    -   ### [SplatoonSerif](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [SplatoonSerif](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-serif
-        ```
+      ```shell
+        brew install font-splatoon-serif
+      ```
 
-    -   ### [SplatoonSign](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [SplatoonSign](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-sign
-        ```
+      ```shell
+        brew install font-splatoon-sign
+      ```
 
-    -   ### [SplatoonSquare](https://twitter.com/ardnin_/status/1535737230949490695)
+    - ### [SplatoonSquare](https://twitter.com/ardnin_/status/1535737230949490695)
 
-        ```shell
-          brew install font-splatoon-square
-        ```
+      ```shell
+        brew install font-splatoon-square
+      ```
