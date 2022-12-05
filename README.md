@@ -52,12 +52,6 @@
         brew install font-rolachan
       ```
 
-    - ### Slash
-
-      ```shell
-        brew install font-slash
-      ```
-
     - ### [Splatoon1](https://frozenpandaman.github.io/inkling.html)
 
       ```shell
