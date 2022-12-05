@@ -46,6 +46,12 @@
         brew install font-pixelmplus
       ```
 
+    - ### [ROLAchan](https://ozawa.design/store/rolachan)
+
+      ```shell
+        brew install font-rolachan
+      ```
+
     - ### Slash
 
       ```shell
