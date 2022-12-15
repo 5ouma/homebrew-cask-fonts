@@ -21,6 +21,12 @@
         brew install font-8-bit-wonder
       ```
 
+    - ### [BestTen](https://flop.fanbox.cc/posts/1918861)
+
+      ```shell
+        brew install font-bestten
+      ```
+
     - ### DeterminationJP
 
       ```shell
