@@ -46,6 +46,12 @@
         brew install font-inkling
       ```
 
+    - ### [LINE Seed JP](https://seed.line.me/)
+
+      ```shell
+        brew install font-line-seed-jp
+      ```
+
     - ### [PixelMplus](https://itouhiro.hatenablog.com/entry/20130602/font)
 
       ```shell
