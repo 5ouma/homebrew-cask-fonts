@@ -52,6 +52,12 @@
         brew install font-line-seed-jp
       ```
 
+    - ### [marukiya](https://marukiyagames.com)
+
+      ```shell
+        brew install font-marukiya
+      ```
+
     - ### [PixelMplus](https://itouhiro.hatenablog.com/entry/20130602/font)
 
       ```shell
