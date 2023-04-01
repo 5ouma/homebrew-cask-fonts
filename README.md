@@ -1,9 +1,9 @@
-<br>
+<br />
 
 <h1 align="center">Homebrew Cask Fonts</h1>
 <p align="center">Homebrew tap for Cask Fonts to install fonts unofficially</p>
 
-<br><br>
+<br /><br />
 
 # How to tap/install this?
 
@@ -46,7 +46,7 @@
         brew install font-inkling
       ```
 
-    - ### [LINE Seed JP](https://seed.line.me/)
+    - ### [LINE Seed JP](https://seed.line.me)
 
       ```shell
         brew install font-line-seed-jp
