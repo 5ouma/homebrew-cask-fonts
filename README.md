@@ -10,15 +10,15 @@
 
 <br /><br />
 
-## How to tap/install this?
+## 📥 Installation
 
-1.  ### Tap this repository
+1.  ### 🚰 Tap this repo
 
     ```shell
       brew tap 5ouma/cask-fonts
     ```
 
-2.  ### Run these commands which you like
+2.  ### ⚙️ Run these commands which you like
 
     - #### 8-BIT-WONDER
 
