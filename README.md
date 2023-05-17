@@ -4,7 +4,7 @@
 
 # Homebrew Cask Fonts
 
-**Homebrew tap for Cask Fonts to install fonts unofficially**
+**🍺 Homebrew tap for Cask Fonts to install fonts unofficially**
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/5ouma/homebrew-cask-fonts?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5ouma/homebrew-cask-fonts?style=flat-square)
