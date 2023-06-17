@@ -25,22 +25,10 @@
 
 2.  ### ⚙️ Run these commands which you like
 
-    - #### 8-BIT-WONDER
-
-      ```shell
-        brew install font-8-bit-wonder
-      ```
-
     - #### [BestTen](https://flop.fanbox.cc/posts/1918861)
 
       ```shell
         brew install font-bestten
-      ```
-
-    - #### DeterminationJP
-
-      ```shell
-        brew install font-determinationjp
       ```
 
     - #### Giro
@@ -62,18 +50,6 @@
         brew install font-line-seed-jp
       ```
 
-    - #### [marukiya](https://marukiyagames.com)
-
-      ```shell
-        brew install font-marukiya
-      ```
-
-    - #### [PixelMplus](https://itouhiro.hatenablog.com/entry/20130602/font)
-
-      ```shell
-        brew install font-pixelmplus
-      ```
-
     - #### [ROLAchan](https://ozawa.design/store/rolachan)
 
       ```shell
@@ -90,58 +66,4 @@
 
       ```shell
         brew install font-splatoon2
-      ```
-
-    - #### [SplatoonAlterna](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-alterna
-      ```
-
-    - #### [Splatoon Bold](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-bold
-      ```
-
-    - #### [SplatoonBubble](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-bubble
-      ```
-
-    - #### [SplatoonHalfmoon](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-halfmoon
-      ```
-
-    - #### [SplatoonRound](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-round
-      ```
-
-    - #### [SplatoonRunic](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-runic
-      ```
-
-    - #### [SplatoonSerif](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-serif
-      ```
-
-    - #### [SplatoonSign](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-sign
-      ```
-
-    - #### [SplatoonSquare](https://twitter.com/ardnin_/status/1535737230949490695)
-
-      ```shell
-        brew install font-splatoon-square
       ```
