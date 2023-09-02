@@ -34,8 +34,7 @@
     - #### Giro
 
       ```shell
-        brew install font-girolight001
-        brew install font-girooutline001
+        brew install font-giro
       ```
 
     - #### [Inkling](https://frozenpandaman.github.io/inkling.html)
