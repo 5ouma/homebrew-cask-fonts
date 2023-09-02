@@ -50,6 +50,11 @@
         brew install font-line-seed-jp
       ```
 
+    - #### [Natadecoco gothic](https://kashika-labo.com/natadecoco-gothic)
+      ```shell
+        brew install font-natadecoco-gothic
+      ```
+
     - #### [ROLAchan](https://ozawa.design/store/rolachan)
 
       ```shell
