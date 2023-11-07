@@ -4,7 +4,7 @@
 
 # Homebrew Cask Fonts
 
-**🍺 Homebrew tap for Cask Fonts to install fonts unofficially**
+**🍺 Homebrew tap for Cask Fonts to install fonts unofficially.**
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/5ouma/homebrew-cask-fonts?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5ouma/homebrew-cask-fonts?style=flat-square)
@@ -17,57 +17,58 @@
 
 ## 📥 Installation
 
-1.  ### 🚰 Tap this repo
+1. ### 🚰 Tap this repo
 
-    ```shell
-      brew tap 5ouma/cask-fonts
-    ```
+   ```shell
+     brew tap 5ouma/cask-fonts
+   ```
 
-2.  ### ⚙️ Run these commands which you like
+2. ### ⚙️ Run these commands which you like
 
-    - #### [BestTen](https://flop.fanbox.cc/posts/1918861)
+   - #### [BestTen](https://flop.fanbox.cc/posts/1918861)
 
-      ```shell
-        brew install font-bestten
-      ```
+     ```shell
+       brew install font-bestten
+     ```
 
-    - #### Giro
+   - #### Giro
 
-      ```shell
-        brew install font-giro
-      ```
+     ```shell
+       brew install font-giro
+     ```
 
-    - #### [Inkling](https://frozenpandaman.github.io/inkling.html)
+   - #### [Inkling](https://frozenpandaman.github.io/inkling.html)
 
-      ```shell
-        brew install font-inkling
-      ```
+     ```shell
+       brew install font-inkling
+     ```
 
-    - #### [LINE Seed JP](https://seed.line.me)
+   - #### [LINE Seed JP](https://seed.line.me)
 
-      ```shell
-        brew install font-line-seed-jp
-      ```
+     ```shell
+       brew install font-line-seed-jp
+     ```
 
-    - #### [Natadecoco gothic](https://kashika-labo.com/natadecoco-gothic)
-      ```shell
-        brew install font-natadecoco-gothic
-      ```
+   - #### [Natadecoco gothic](https://kashika-labo.com/natadecoco-gothic)
 
-    - #### [ROLAchan](https://ozawa.design/store/rolachan)
+     ```shell
+       brew install font-natadecoco-gothic
+     ```
 
-      ```shell
-        brew install font-rolachan
-      ```
+   - #### [ROLAchan](https://ozawa.design/store/rolachan)
 
-    - #### [Splatoon1](https://frozenpandaman.github.io/inkling.html)
+     ```shell
+       brew install font-rolachan
+     ```
 
-      ```shell
-        brew install font-splatoon1
-      ```
+   - #### [Splatoon1](https://frozenpandaman.github.io/inkling.html)
 
-    - #### [Splatoon2](https://frozenpandaman.github.io/inkling.html)
+     ```shell
+       brew install font-splatoon1
+     ```
 
-      ```shell
-        brew install font-splatoon2
-      ```
+   - #### [Splatoon2](https://frozenpandaman.github.io/inkling.html)
+
+     ```shell
+       brew install font-splatoon2
+     ```
