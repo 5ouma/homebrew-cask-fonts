@@ -1,8 +1,6 @@
-<br />
+<h1 align="center">Homebrew Cask Fonts</h1>
 
 <div align="center">
-
-# Homebrew Cask Fonts
 
 **🍺 Homebrew tap for Cask Fonts to install fonts unofficially.**
 
