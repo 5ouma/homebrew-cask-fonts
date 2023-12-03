@@ -43,6 +43,12 @@ jobs:
       - name: Cask Audit
         run: brew audit --strict --cask --tap ${{ env.HOMEBREW_TAP }}
 
+      - name: Cask Livecheck
+        run: |
+          declare -r versionInfo="$(brew livecheck --newer-only --cask --tap=${{ env.HOMEBREW_TAP }})"
+          echo "$versionInfo"
+          test "$versionInfo" = 'No newer upstream versions.'
+
       - name: Cask Install
         run: |
           for cask in $(brew search '5ouma/cask'); do
