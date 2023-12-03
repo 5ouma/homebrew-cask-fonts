@@ -35,13 +35,13 @@ jobs:
         run: brew install-bundler-gems
 
       - name: Cask Readall
-        run: brew readall ${{ env.HOMEBREW_TAP }}
+        run: brew readall --verbose ${{ env.HOMEBREW_TAP }}
 
       - name: Cask Style
-        run: brew style --cask ${{ env.HOMEBREW_TAP }}
+        run: brew style --debug --cask ${{ env.HOMEBREW_TAP }}
 
       - name: Cask Audit
-        run: brew audit --strict --cask --tap ${{ env.HOMEBREW_TAP }}
+        run: brew audit --debug --strict --cask --tap ${{ env.HOMEBREW_TAP }}
 
       - name: Cask Livecheck
         run: |
