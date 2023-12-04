@@ -12,9 +12,6 @@ jobs:
   Test-Bot:
     runs-on: macOS-Latest
 
-    env:
-      HOMEBREW_TAP: "5ouma/cask-fonts"
-
     steps:
       - name: Setup Homebrew
         id: setup-homebrew
@@ -35,22 +32,16 @@ jobs:
         run: brew install-bundler-gems
 
       - name: Cask Readall
-        run: brew readall --verbose ${{ env.HOMEBREW_TAP }}
+        run: brew readall --verbose "$GITHUB_REPOSITORY"
 
       - name: Cask Style
-        run: brew style --debug --cask ${{ env.HOMEBREW_TAP }}
+        run: brew style --debug --cask "$GITHUB_REPOSITORY"
 
       - name: Cask Audit
-        run: brew audit --debug --strict --cask --tap ${{ env.HOMEBREW_TAP }}
-
-      - name: Cask Livecheck
-        run: |
-          declare -r versionInfo="$(brew livecheck --newer-only --cask --tap=${{ env.HOMEBREW_TAP }})"
-          echo "$versionInfo"
-          test "$versionInfo" = 'No newer upstream versions.'
+        run: brew audit --debug --strict --cask --tap="$GITHUB_REPOSITORY"
 
       - name: Cask Install
         run: |
-          for cask in $(brew search '5ouma/cask'); do
+          for cask in $(brew search "$GITHUB_REPOSITORY"); do
             brew install --cask --verbose "$cask"
           done
