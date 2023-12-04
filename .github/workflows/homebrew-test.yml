@@ -42,6 +42,6 @@ jobs:
 
       - name: Cask Install
         run: |
-          for cask in $(brew search "$GITHUB_REPOSITORY"); do
+          for cask in $(brew search "${GITHUB_REPOSITORY/homebrew-/}"); do
             brew install --cask --verbose "$cask"
           done
