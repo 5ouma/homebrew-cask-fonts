@@ -1,5 +1,5 @@
 cask "font-splatoon1" do
-  version "1.0"
+  version :latest
   sha256 :no_check
 
   url "http://frozenpandaman.github.io/Splatoon1.otf"

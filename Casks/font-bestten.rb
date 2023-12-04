@@ -1,5 +1,5 @@
 cask "font-bestten" do
-  version "Version 1.00"
+  version :latest
   sha256 :no_check
 
   url "https://downloads.fanbox.cc/files/post/1918861/PvQSdySW9VjR3u9peIagUppF.zip"

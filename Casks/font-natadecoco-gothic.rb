@@ -1,5 +1,5 @@
 cask "font-natadecoco-gothic" do
-  version "Version 1.000"
+  version :latest
   sha256 :no_check
 
   url "https://kashika-labo.com/download/natadecoco-gothic-zip/?wpdmdl=1295&refresh=64f31112e32231693651218"

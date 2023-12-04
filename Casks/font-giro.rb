@@ -1,5 +1,5 @@
 cask "font-giro" do
-  version "001.000"
+  version :latest
   sha256 :no_check
 
   url "https://dl.dafont.com/dl/?f=giro",

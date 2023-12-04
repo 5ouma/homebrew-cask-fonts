@@ -1,5 +1,5 @@
 cask "font-rolachan" do
-  version "1.000"
+  version :latest
   sha256 :no_check
 
   url "https://ozawa.design/download/rolachan/?wpdmdl=635"
