@@ -22,7 +22,7 @@
      brew tap 5ouma/cask-fonts
    ```
 
-2. ### ⚙️ Run these commands which you like
+2. ### 🔠 Install preferred fonts
 
    - #### [BestTen](https://flop.fanbox.cc/posts/1918861)
 
