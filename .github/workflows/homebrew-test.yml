@@ -33,6 +33,11 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: brew install-bundler-gems
 
+      - name: Tap and Switch Branch
+        run: |
+          brew tap "$GITHUB_REPOSITORY"
+          git -C "$(brew tap-info "$GITHUB_REPOSITORY" --json | jq -r '.[].path')" switch "${GITHUB_HEAD_REF:-main}"
+
       - name: Cask Readall
         run: brew readall --verbose "$GITHUB_REPOSITORY"
 
