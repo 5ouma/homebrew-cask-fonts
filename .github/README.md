@@ -19,55 +19,55 @@
 1. ### 🚰 Tap this repo
 
    ```shell
-     brew tap 5ouma/cask-fonts
+   brew tap 5ouma/cask-fonts
    ```
 
 2. ### 🔠 Install preferred fonts
 
-   - #### [BestTen](https://flop.fanbox.cc/posts/1918861)
+   - #### [👾 BestTen](https://flop.fanbox.cc/posts/1918861)
 
      ```shell
-       brew install font-bestten
+     brew install font-bestten
      ```
 
-   - #### Giro
+   - #### 🌀 Giro
 
      ```shell
-       brew install font-giro
+     brew install font-giro
      ```
 
-   - #### [Inkling](https://frozenpandaman.github.io/inkling.html)
+   - #### [🖋️ Inkling](https://frozenpandaman.github.io/inkling.html)
 
      ```shell
-       brew install font-inkling
+     brew install font-inkling
      ```
 
-   - #### [LINE Seed JP](https://seed.line.me)
+   - #### [🌱 LINE Seed JP](https://seed.line.me)
 
      ```shell
-       brew install font-line-seed-jp
+     brew install font-line-seed-jp
      ```
 
-   - #### [Natadecoco gothic](https://kashika-labo.com/natadecoco-gothic)
+   - #### [🥥 Natadecoco gothic](https://kashika-labo.com/natadecoco-gothic)
 
      ```shell
-       brew install font-natadecoco-gothic
+     brew install font-natadecoco-gothic
      ```
 
-   - #### [ROLAchan](https://ozawa.design/store/rolachan)
+   - #### [🌼 ROLAchan](https://ozawa.design/store/rolachan)
 
      ```shell
-       brew install font-rolachan
+     brew install font-rolachan
      ```
 
-   - #### [Splatoon1](https://frozenpandaman.github.io/inkling.html)
+   - #### [🦑 Splatoon1](https://frozenpandaman.github.io/inkling.html)
 
      ```shell
-       brew install font-splatoon1
+     brew install font-splatoon1
      ```
 
-   - #### [Splatoon2](https://frozenpandaman.github.io/inkling.html)
+   - #### [🦑 Splatoon2](https://frozenpandaman.github.io/inkling.html)
 
      ```shell
-       brew install font-splatoon2
+     brew install font-splatoon2
      ```
