@@ -23,7 +23,7 @@ jobs:
 
       - name: 🫙 Cache Homebrew Bundler RubyGems
         id: cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ steps.setup-homebrew.outputs.gems-path }}
           key: ${{ runner.os }}-rubygems-${{ steps.setup-homebrew.outputs.gems-hash }}
