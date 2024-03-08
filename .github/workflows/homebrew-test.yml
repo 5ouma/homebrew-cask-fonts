@@ -12,7 +12,10 @@ on:
 
 jobs:
   Test-Bot:
-    runs-on: macOS-Latest
+    strategy:
+      matrix:
+        os: [macOS-13, macOS-14]
+    runs-on: ${{ matrix.os }}
 
     steps:
       - name: 🍺 Setup Homebrew
