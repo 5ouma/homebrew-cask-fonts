@@ -36,6 +36,12 @@
      brew install font-giro
      ```
 
+   - #### [😀 Emoooji](https://rarapon.net/download/other/emoooji)
+
+     ```shell
+     brew install font-emoooji
+     ```
+
    - #### [🖋️ Inkling](https://frozenpandaman.github.io/inkling.html)
 
      ```shell
