@@ -18,7 +18,7 @@
 
 1. ### 🚰 Tap this repo
 
-   ```shell
+   ```sh
    brew tap 5ouma/cask-fonts
    ```
 
@@ -26,54 +26,54 @@
 
    - #### [👾 BestTen](https://flop.fanbox.cc/posts/1918861)
 
-     ```shell
+     ```sh
      brew install font-bestten
      ```
 
    - #### 🌀 Giro
 
-     ```shell
+     ```sh
      brew install font-giro
      ```
 
    - #### [😀 Emoooji](https://rarapon.net/download/other/emoooji)
 
-     ```shell
+     ```sh
      brew install font-emoooji
      ```
 
    - #### [🖋️ Inkling](https://frozenpandaman.github.io/inkling.html)
 
-     ```shell
+     ```sh
      brew install font-inkling
      ```
 
    - #### [🌱 LINE Seed JP](https://seed.line.me)
 
-     ```shell
+     ```sh
      brew install font-line-seed-jp
      ```
 
    - #### [🥥 Natadecoco gothic](https://kashika-labo.com/natadecoco-gothic)
 
-     ```shell
+     ```sh
      brew install font-natadecoco-gothic
      ```
 
    - #### [🌼 ROLAchan](https://ozawa.design/store/rolachan)
 
-     ```shell
+     ```sh
      brew install font-rolachan
      ```
 
    - #### [🦑 Splatoon1](https://frozenpandaman.github.io/inkling.html)
 
-     ```shell
+     ```sh
      brew install font-splatoon1
      ```
 
    - #### [🦑 Splatoon2](https://frozenpandaman.github.io/inkling.html)
 
-     ```shell
+     ```sh
      brew install font-splatoon2
      ```
