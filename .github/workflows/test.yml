@@ -1,4 +1,4 @@
-name: 🧪 Homebrew Test
+name: 🧪 Test
 
 on:
   push:
@@ -11,7 +11,8 @@ on:
     - cron: 0 0 * * SAT
 
 jobs:
-  Test-Bot:
+  test:
+    name: ${{ startsWith(matrix.os, 'macOS') && '🍎' || '🐧' }} ${{ matrix.os }}
     strategy:
       matrix:
         os: [macOS-13, macOS-14]

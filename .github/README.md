@@ -8,7 +8,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/5ouma/homebrew-cask-fonts?style=flat-square)
 [![GitHub last commit](https://img.shields.io/github/last-commit/5ouma/homebrew-cask-fonts?style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/commit/HEAD)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/5ouma/homebrew-cask-fonts?style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/commits/main)
-[![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask-fonts/homebrew-test.yml?label=test&style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/actions/workflows/homebrew-test.yml)
+[![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask-fonts/test.yml?label=test&style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/actions/workflows/test.yml)
 
 </div>
 
