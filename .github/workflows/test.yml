@@ -17,6 +17,8 @@ jobs:
       matrix:
         os: [macOS-13, macOS-14]
     runs-on: ${{ matrix.os }}
+    env:
+      repository: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name || github.repository }}
 
     steps:
       - name: 🍺 Setup Homebrew
@@ -39,20 +41,20 @@ jobs:
 
       - name: 🚰 Tap and Switch Branch
         run: |
-          brew tap "$GITHUB_REPOSITORY"
-          git -C "$(brew tap-info "$GITHUB_REPOSITORY" --json | jq -r '.[].path')" switch "${GITHUB_HEAD_REF:-main}"
+          brew tap "$repository"
+          git -C "$(brew tap-info "$repository" --json | jq -r '.[].path')" switch "${GITHUB_HEAD_REF:-main}"
 
       - name: 📕 Cask Readall
-        run: brew readall --verbose "$GITHUB_REPOSITORY"
+        run: brew readall --verbose "$repository"
 
       - name: 💈 Cask Style
-        run: brew style --debug --cask "$GITHUB_REPOSITORY"
+        run: brew style --debug --cask "$repository"
 
       - name: 🎤 Cask Audit
-        run: brew audit --debug --strict --cask --tap="$GITHUB_REPOSITORY"
+        run: brew audit --debug --strict --cask --tap="$repository"
 
       - name: 📲 Cask Install
         run: |
-          for cask in $(brew search "${GITHUB_REPOSITORY/homebrew-/}"); do
+          for cask in $(brew search "${repository/homebrew-/}"); do
             brew install --cask --verbose "$cask"
           done
