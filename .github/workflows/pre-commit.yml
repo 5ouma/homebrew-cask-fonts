@@ -1,0 +1,14 @@
+name: 🚸 pre-commit
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  pre-commit:
+    runs-on: Ubuntu-Latest
+
+    steps:
+      - name: 🚸 Run pre-commit
+        uses: 5ouma/utils/pre-commit@3476e9f4061bbf7029969018ee0b0de1e27dd364 # main
