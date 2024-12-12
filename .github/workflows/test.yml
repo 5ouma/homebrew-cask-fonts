@@ -33,7 +33,6 @@ jobs:
         with:
           path: ${{ steps.setup-homebrew.outputs.gems-path }}
           key: ${{ runner.os }}-rubygems-${{ steps.setup-homebrew.outputs.gems-hash }}
-          restore-keys: ${{ runner.os }}-rubygems-
 
       - name: 💎 Install Homebrew Bundler RubyGems
         if: steps.cache.outputs.cache-hit != 'true'
