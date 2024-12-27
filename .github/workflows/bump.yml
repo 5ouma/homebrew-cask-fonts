@@ -1,0 +1,38 @@
+name: ✨ Bump
+
+on:
+  schedule:
+    - cron: 0 0 * * *
+  workflow_dispatch:
+
+permissions:
+  pull-requests: write
+
+jobs:
+  Bump-Cask:
+    runs-on: Ubuntu-Latest
+
+    steps:
+      - name: 🍺 Setup Homebrew
+        id: setup-homebrew
+        uses: Homebrew/actions/setup-homebrew@318a1900ed273bea3ec1f4e4baa30aebb9c7f85a # master
+        with:
+          test-bot: false
+
+      - name: 🫙 Cache Homebrew Bundler RubyGems
+        id: cache
+        uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57 # v4.2.0
+        with:
+          path: ${{ steps.setup-homebrew.outputs.gems-path }}
+          key: ${{ runner.os }}-rubygems-${{ steps.setup-homebrew.outputs.gems-hash }}
+
+      - name: 💎 Install Homebrew Bundler RubyGems
+        if: ${{ steps.cache.outputs.cache-hit != 'true' }}
+        run: brew install-bundler-gems
+
+      - name: ✨ Version up Homebrew Cask
+        uses: macauley/action-homebrew-bump-cask@445c42390d790569d938f9068d01af39ca030feb # v1.0.0
+        with:
+          token: ${{ secrets.TOKEN }}
+          tap: ${{ github.repository }}
+          livecheck: true
