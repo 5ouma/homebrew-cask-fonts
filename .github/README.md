@@ -4,11 +4,11 @@
 
 **🍺 Homebrew tap for Cask Fonts to install fonts unofficially**
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/5ouma/homebrew-cask-fonts?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/5ouma/homebrew-cask-fonts?style=flat-square)
-[![GitHub last commit](https://img.shields.io/github/last-commit/5ouma/homebrew-cask-fonts?style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/commit/HEAD)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/5ouma/homebrew-cask-fonts?style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/commits/main)
-[![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask-fonts/test.yml?label=test&style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/actions/workflows/test.yml)
+<br />
+
+[![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask-fonts/test.yml?label=Test&style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/actions/workflows/test.yml)
+
+![Repobeats Analytics Image](https://repobeats.axiom.co/api/embed/671de53481d680f87d475d1a1e92d119d1acde52.svg)
 
 </div>
 
@@ -58,6 +58,18 @@
 
      ```sh
      brew install font-natadecoco-gothic
+     ```
+
+   - #### [🫥 Ndot](https://nerdfont.com)
+
+     ```shell
+     brew install font-
+     ```
+
+   - #### [🕶️ Nerd Fonts](https://nerdfont.com)
+
+     ```shell
+     brew install font-nerd-fonts
      ```
 
    - #### [🌼 ROLAchan](https://ozawa.design/store/rolachan)
