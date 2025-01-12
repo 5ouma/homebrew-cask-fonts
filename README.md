@@ -60,12 +60,6 @@
      brew install font-natadecoco-gothic
      ```
 
-   - #### [🫥 Ndot](https://nerdfont.com)
-
-     ```shell
-     brew install font-
-     ```
-
    - #### [🕶️ Nerd Fonts](https://nerdfont.com)
 
      ```shell
