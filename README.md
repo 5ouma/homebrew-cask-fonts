@@ -30,16 +30,22 @@
      brew install font-bestten
      ```
 
-   - #### 🌀 Giro
+   - #### [🌰 Donguri Duel](https://hicchicc.github.io/00ff)
 
      ```sh
-     brew install font-giro
+     brew install font-donguri-duel
      ```
 
    - #### [😀 Emoooji](https://rarapon.net/download/other/emoooji)
 
      ```sh
      brew install font-emoooji
+     ```
+
+   - #### 🌀 Giro
+
+     ```sh
+     brew install font-giro
      ```
 
    - #### [🖋️ Inkling](https://frozenpandaman.github.io/inkling.html)
