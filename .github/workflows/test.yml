@@ -35,7 +35,7 @@ jobs:
           key: ${{ runner.os }}-rubygems-${{ steps.setup-homebrew.outputs.gems-hash }}
 
       - name: 💎 Install Homebrew Bundler RubyGems
-        if: steps.cache.outputs.cache-hit != 'true'
+        if: ${{ steps.cache.outputs.cache-hit != 'true' }}
         run: brew install-bundler-gems
 
       - name: 🚰 Tap and Switch Branch
