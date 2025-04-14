@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: 🍺 Setup Homebrew
         id: setup-homebrew
-        uses: Homebrew/actions/setup-homebrew@c231aef2fc180e8722622cfc8a9db82fad952bab # master
+        uses: Homebrew/actions/setup-homebrew@799a42382f55c08a547c6d9b14b2c37306352697 # master
         with:
           test-bot: false
 
