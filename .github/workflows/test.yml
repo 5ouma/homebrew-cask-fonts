@@ -15,11 +15,12 @@ permissions: {}
 jobs:
   test:
     name: ${{ startsWith(matrix.os, 'macOS') && '🍎' || '🐧' }} ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 3
     strategy:
       fail-fast: false
       matrix:
         os: [macOS-13, macOS-14]
-    runs-on: ${{ matrix.os }}
     env:
       repository: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name || github.repository }}
 
