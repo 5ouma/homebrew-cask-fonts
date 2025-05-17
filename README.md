@@ -7,6 +7,8 @@
 <br />
 
 [![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask-fonts/test.yml?label=Test&style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/actions/workflows/test.yml)
+[![Bump](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask-fonts/bump.yml?label=Bump&style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/actions/workflows/bump.yml)
+[![pre-commit](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask-fonts/pre-commit.yml?label=pre-commit&style=flat-square)](https://github.com/5ouma/homebrew-cask-fonts/actions/workflows/pre-commmit.yml)
 
 ![Repobeats Analytics Image](https://repobeats.axiom.co/api/embed/671de53481d680f87d475d1a1e92d119d1acde52.svg)
 
